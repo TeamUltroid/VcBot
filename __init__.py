@@ -31,15 +31,15 @@ from telethon.errors.rpcerrorlist import (
 )
 from pyUltroid import HNDLR, LOGS, asst, udB, vcClient
 from pyUltroid._misc._decorators import compile_pattern
-from pyUltroid.functions.helper import (
+from pyUltroid.fns.helper import (
     bash,
     downloader,
     inline_mention,
     mediainfo,
     time_formatter,
 )
-from pyUltroid.functions.admins import admin_check
-from pyUltroid.functions.tools import is_url_ok
+from pyUltroid.fns.admins import admin_check
+from pyUltroid.fns.tools import is_url_ok
 from pyUltroid.functions.ytdl import get_videos_link
 from pyUltroid._misc import owner_and_sudos, sudoers
 from pyUltroid._misc._assistant import in_pattern
