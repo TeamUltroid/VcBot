@@ -13,10 +13,9 @@ jobs:
           find: 'pyUltroid.functions'
           replace: 'pyUltroid.fns'
           regex: false
-          include: **.py
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: '2'
+          commit_message: '3'
           commit_options: '--no-verify'
           repository: .
           commit_user_name: buddhhu
