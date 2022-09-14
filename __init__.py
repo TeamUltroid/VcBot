@@ -40,7 +40,7 @@ from pyUltroid.fns.helper import (
 )
 from pyUltroid.fns.admins import admin_check
 from pyUltroid.fns.tools import is_url_ok
-from pyUltroid.functions.ytdl import get_videos_link
+from pyUltroid.fns.ytdl import get_videos_link
 from pyUltroid._misc import owner_and_sudos, sudoers
 from pyUltroid._misc._assistant import in_pattern
 from pyUltroid._misc._wrappers import eod, eor
